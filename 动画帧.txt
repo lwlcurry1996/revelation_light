@@ -1,0 +1,13 @@
+ @keyframes light {
+            0% {
+                -webkit-clip-path: circle(100px at 0% 50%);
+                clip-path: circle(100px at 0% 50%);
+            }
+            50%{
+                -webkit-clip-path: circle(100px at 100% 50%);
+                clip-path: circle(100px at 100% 50%);
+            }
+            100%{
+                -webkit-clip-path: circle(100px at 0% 50%);
+                clip-path: circle(100px at 0% 50%);
+            }
